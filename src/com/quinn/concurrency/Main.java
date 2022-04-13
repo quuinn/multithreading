@@ -15,25 +15,36 @@ package com.quinn.concurrency;
  * @date Apr 12, 2022 12:39:06 PM
  */
 public class Main {
-
 	public static void main(String[] args) {
-		System.out.println("Hello from: " + Thread.currentThread().getName());
-		Thread thread = new Thread(() -> System.out.println("Hello from: " + Thread.currentThread().getName()));
-		Thread newThread = new NewThread();
-		thread.start();
-		newThread.start();
+
 	}
 
-	public static class NewThread extends Thread {
-		public void run() {
-			System.out.println("Hello from: " + this.getName());
+	private static class Vault {
+		private int password;
+
+		public Vault(int password) {
+			this.password = password;
 		}
 
+		public boolean isCorrectPassword(int guess) {
+
+			try {
+				Thread.sleep(5);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			return this.password == guess;
+		}
 	}
-	
-	/**
-	 * 
-	 * 1. secure vault
-	 * */
+
+	private static abstract class HackerThread extends Thread {
+		protected Vault vault;
+
+		public HackerThread(Vault vault) {
+			this.vault = vault;
+			this.setName(this.getClass().getSimpleName());
+			this.setPriority(MAX_PRIORITY);
+		}
+	}
 
 }
