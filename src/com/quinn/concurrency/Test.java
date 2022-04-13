@@ -42,7 +42,7 @@ public class Test {
 
 		thread.setUncaughtExceptionHandler(
 				(Thread t, Throwable e) -> System.out.println("" + t.getName() + "\n" + "" + e.getMessage()));
-
+		
 		thread.start();
 
 	}

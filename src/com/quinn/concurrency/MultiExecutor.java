@@ -8,7 +8,6 @@
 */
 package com.quinn.concurrency;
 
-import java.util.ArrayList;
 /** 
 * @ClassName: MultiExecutor 
 * @Description: TODO(這裡用一句話描述這個類的作用) 
@@ -33,15 +32,6 @@ public class MultiExecutor {
 	 * Starts and executes all the tasks concurrently
 	 */
 	public void executeAll() {
-		List<Thread> threads = new ArrayList<>(tasks.size());
-
-		for (Runnable task : tasks) {
-			Thread thread = new Thread(task);
-			threads.add(thread);
-		}
-
-		for (Thread thread : threads) {
-			thread.start();
-		}
+		tasks.forEach(t -> new Thread(t).start());
 	}
 }
