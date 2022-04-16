@@ -19,11 +19,13 @@ import java.util.stream.IntStream;
  */
 public class LongComputationTaskMain {
 	public static void main(String[] args) throws InterruptedException {
-		int iBase = 20000000;
-		int iPow = 2000000;
+		int iBase = 20000;
+		int iPow = 20000;
 		Thread thread = new Thread(() -> System.out.print(iBase + "^" + iPow + " = " + pow(iBase, iPow)));
 		thread.start();
-		thread.sleep(1000);
+		Thread.sleep(3000);
+		
+		// interrupt() 並不會拋出 InterruptedException 
 		thread.interrupt();
 	}
 
@@ -32,7 +34,7 @@ public class LongComputationTaskMain {
 		for (int i = 0; power > i; i++) {
 			
 			if(Thread.currentThread().isInterrupted()){
-				System.out.println(i);
+				System.out.println("計算第 " + i + " 次. TIME_OUT");
 				return BigInteger.ZERO;
 			}
 			result = result.multiply(new BigInteger(base + ""));
