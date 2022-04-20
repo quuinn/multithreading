@@ -1,5 +1,5 @@
 /**   
-* @Title ColorMain.java 
+* @Title Color.java 
 * @Package com.quinn.tool 
 * @Description TODO 
 * @author pigmilk
@@ -17,7 +17,7 @@ import java.util.List;
 import javax.imageio.ImageIO;
 
 /**
- * @ClassName ColorMain
+ * @ClassName Color
  * @Description ARGB <br>
  *              A = 透明度 Alpha transparency <br>
  *              R = Red <br>
@@ -26,7 +26,7 @@ import javax.imageio.ImageIO;
  * @author pigmilk
  * @date Apr 17, 2022 3:07:19 PM
  */
-public class ColorMain {
+public class Color {
 	public static final String SOURCE_FILE = "./resources/many-flowers.jpg";
 	public static final String DESTINATION_FILE = "./out/manu-flowers.jpg";
 
