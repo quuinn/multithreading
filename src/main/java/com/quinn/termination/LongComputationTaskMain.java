@@ -2,7 +2,7 @@
 * @Title: LongComputationTaskMain.java 
 * @Package com.quinn.concurrency 
 * @Description: TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 14, 2022 10:26:41 PM 
 * @version 1.0.0   
 */
@@ -14,7 +14,7 @@ import java.util.stream.IntStream;
 /**
  * @ClassName: LongComputationTaskMain
  * @Description: TODO(這裡用一句話描述這個類的作用)
- * @author pigmilk
+ * @author Quinn
  * @date Apr 14, 2022 10:26:41 PM
  */
 public class LongComputationTaskMain {

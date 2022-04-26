@@ -2,7 +2,7 @@
 * @Title: DaemonMain.java 
 * @Package com.quinn.termination 
 * @Description: TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 15, 2022 12:55:59 PM 
 * @version 1.0.0   
 */
@@ -15,7 +15,7 @@ import java.io.IOException;
  * @Description Daemon thread 原先設計是為了要協助 User thread, <br>
  *               因此當所有的 User thread 都結束時, <br>
  *               所有的 Daemon thread 也會跟著 JVM 一起結束
- * @author pigmilk
+ * @author Quinn
  * @date Apr 15, 2022 12:55:59 PM
  */
 public class DaemonMain {

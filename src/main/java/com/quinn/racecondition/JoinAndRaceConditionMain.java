@@ -2,7 +2,7 @@
 * @Title JoinAndRaceConditionMain.java 
 * @Package com.quinn.termination 
 * @Description TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 16, 2022 9:02:39 PM 
 * @version 1.0.0   
 */
@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * @ClassName JoinAndRaceConditionMain
  * @Description 使用 join 來處理 race condition 的問題
- * @author pigmilk
+ * @author Quinn
  * @date Apr 16, 2022 9:02:39 PM
  */
 public class JoinAndRaceConditionMain {
@@ -24,7 +24,7 @@ public class JoinAndRaceConditionMain {
 	/**
 	 * @ClassName FactoralThread
 	 * @Description TODO(這裡用一句話描述這個類的作用)
-	 * @author pigmilk
+	 * @author Quinn
 	 * @date Apr 16, 2022 9:03:47 PM
 	 */
 	public static class FactoralThread extends Thread {

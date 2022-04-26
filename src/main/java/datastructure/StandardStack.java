@@ -2,7 +2,7 @@
 * @Title StandardStack.java 
 * @Package datastructure 
 * @Description TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 26, 2022 12:12:07 PM 
 * @version 1.0.0   
 */
@@ -11,7 +11,7 @@ package datastructure;
 /**
  * @ClassName StandardStack
  * @Description TODO(這裡用一句話描述這個類的作用)
- * @author pigmilk
+ * @author Quinn
  * @date Apr 26, 2022 12:12:07 PM
  */
 public class StandardStack<T> {

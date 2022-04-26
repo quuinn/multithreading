@@ -2,7 +2,7 @@
 * @Title ComplexCalculationMain.java 
 * @Package com.quinn.concurrency 
 * @Description TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 17, 2022 6:38:46 AM 
 * @version 1.0.0   
 */
@@ -11,7 +11,7 @@ package com.quinn.concurrency;
 /** 
 * @ClassName ComplexCalculationMain 
 * @Description TODO(這裡用一句話描述這個類的作用) 
-* @author pigmilk
+* @author Quinn
 * @date Apr 17, 2022 6:38:46 AM  
 */
 import java.math.BigInteger;

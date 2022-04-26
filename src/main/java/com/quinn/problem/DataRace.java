@@ -2,7 +2,7 @@
 * @Title DataRace.java 
 * @Package com.quinn.problem 
 * @Description TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 21, 2022 12:12:29 AM 
 * @version 1.0.0   
 */
@@ -11,7 +11,7 @@ package com.quinn.problem;
 /**
  * @ClassName DataRace
  * @Description TODO(這裡用一句話描述這個類的作用)
- * @author pigmilk
+ * @author Quinn
  * @date Apr 21, 2022 12:12:29 AM
  */
 public class DataRace {

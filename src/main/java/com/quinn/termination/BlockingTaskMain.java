@@ -2,7 +2,7 @@
 * @Title: BlockingTaskMain.java 
 * @Package com.quinn.concurrency 
 * @Description: TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 13, 2022 10:52:49 PM 
 * @version 1.0.0   
 */
@@ -11,7 +11,7 @@ package com.quinn.termination;
 /**
  * @ClassName: BlockingTaskMain
  * @Description: TODO(這裡用一句話描述這個類的作用)
- * @author pigmilk
+ * @author Quinn
  * @date Apr 13, 2022 10:52:49 PM
  */
 public class BlockingTaskMain {

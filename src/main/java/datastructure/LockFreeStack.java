@@ -2,7 +2,7 @@
 * @Title LockFreeStack.java 
 * @Package datastructure 
 * @Description TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 26, 2022 12:22:29 PM 
 * @version 1.0.0   
 */
@@ -18,7 +18,7 @@ import java.util.concurrent.locks.LockSupport;
 /**
  * @ClassName LockFreeStack
  * @Description TODO(這裡用一句話描述這個類的作用)
- * @author pigmilk
+ * @author Quinn
  * @date Apr 26, 2022 12:22:29 PM
  */
 public class LockFreeStack<T> {

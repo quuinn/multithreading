@@ -2,7 +2,7 @@
 * @Title Color.java 
 * @Package com.quinn.tool 
 * @Description TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 17, 2022 3:07:19 PM 
 * @version 1.0.0   
 */
@@ -23,7 +23,7 @@ import javax.imageio.ImageIO;
  *              R = Red <br>
  *              G = Green <br>
  *              B = Blue
- * @author pigmilk
+ * @author Quinn
  * @date Apr 17, 2022 3:07:19 PM
  */
 public class Color {

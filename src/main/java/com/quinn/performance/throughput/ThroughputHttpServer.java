@@ -2,7 +2,7 @@
 * @Title ThroughputHttpServer.java 
 * @Package com.quinn.performance.throughput 
 * @Description TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 17, 2022 8:22:48 PM 
 * @version 1.0.0   
 */
@@ -23,7 +23,7 @@ import java.util.concurrent.Executors;
 /**
  * @ClassName ThroughputHttpServer
  * @Description TODO(這裡用一句話描述這個類的作用)
- * @author pigmilk
+ * @author Quinn
  * @date Apr 17, 2022 8:22:48 PM
  */
 

@@ -2,7 +2,7 @@
 * @Title: MultiExecutor.java 
 * @Package com.quinn.concurrency 
 * @Description: TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 13, 2022 9:32:12 PM 
 * @version 1.0.0   
 */
@@ -11,7 +11,7 @@ package com.quinn.concurrency;
 /** 
 * @ClassName: MultiExecutor 
 * @Description: TODO(這裡用一句話描述這個類的作用) 
-* @author pigmilk
+* @author Quinn
 * @date Apr 13, 2022 9:32:12 PM  
 */
 import java.util.List;

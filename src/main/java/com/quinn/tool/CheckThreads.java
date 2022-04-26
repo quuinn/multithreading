@@ -2,7 +2,7 @@
 * @Title CheckThreads.java 
 * @Package com.quinn.tool 
 * @Description TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 17, 2022 1:06:39 AM 
 * @version 1.0.0   
 */
@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /** 
 * @ClassName CheckThreads 
 * @Description 測試機器可以 create 多少個 thread
-* @author pigmilk
+* @author Quinn
 * @date Apr 17, 2022 1:06:39 AM  
 */
 	public class CheckThreads {

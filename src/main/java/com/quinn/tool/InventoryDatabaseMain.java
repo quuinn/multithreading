@@ -2,7 +2,7 @@
 * @Title InventoryDatabaseMain.java 
 * @Package com.quinn.tool 
 * @Description TODO 
-* @author pigmilk
+* @author Quinn
 * @date Apr 23, 2022 5:55:00 PM 
 * @version 1.0.0   
 */
@@ -20,7 +20,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * @ClassName InventoryDatabaseMain
  * @Description TODO(這裡用一句話描述這個類的作用)
- * @author pigmilk
+ * @author Quinn
  * @date Apr 23, 2022 5:55:00 PM
  */
 public class InventoryDatabaseMain {
