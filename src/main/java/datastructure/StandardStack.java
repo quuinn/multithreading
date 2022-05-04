@@ -15,7 +15,6 @@ package datastructure;
  * @date Apr 26, 2022 12:12:07 PM
  */
 public class StandardStack<T> {
-
 	private StackNode<T> head;
 	private int counter = 0;
 
@@ -50,9 +49,4 @@ public class StandardStack<T> {
 			this.next = next;
 		}
 	}
-
-	public static void main(String[] args) {
-
-	}
-
 }
